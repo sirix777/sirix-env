@@ -1,5 +1,16 @@
 # Sirix Env
 
+> [!WARNING]
+> **This package is abandoned and no longer maintained.**
+> Use [`sirix/sirix-config`](https://github.com/sirix777/sirix-config) instead: it provides the same global `env()` function with type casting (plus optional explicit casting to `int`, `float`, `string`, `bool` and `array`).
+>
+> ```bash
+> composer remove sirix/sirix-env
+> composer require sirix/sirix-config
+> ```
+>
+> In `sirix/sirix-config`, `env()` is a global function, so drop `use function Sirix\Env\env;`. `EnvParser::parse()` is replaced by the global `parseEnvVar()`.
+
 A helper function to retrieve environment variables with type casting.
 
 ---
