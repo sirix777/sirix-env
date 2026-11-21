@@ -2,6 +2,7 @@
     "name": "sirix/sirix-env",
     "description": "A helper function to retrieve environment variables with type casting",
     "license": "MIT",
+    "abandoned": "sirix/sirix-config",
     "type": "library",
     "authors": [
         {
